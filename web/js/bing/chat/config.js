@@ -183,7 +183,7 @@ _w['_sydConvConfig'] = {
   // 设置已登录账号的聊天对话次数
   maxTurnsPerConversation: 30,
   // 设置未登录账号的聊天对话次数
-  maxTurnsPerConversationMuidUser: 10,
+  maxTurnsPerConversationMuidUser: 30,
   // enableUniversalInput: true,
   maxMessageLength: 8000,
   maxMessageLengthBalanced: 4000,
@@ -641,7 +641,7 @@ _w['_sydConvTranslation'] = {
   speechLoading: '正在等待音频...',
   speechListening: '我听着呢...',
   speechMediaNotReachableError: '很抱歉，我无法收听你的声音，因为你没有可用的麦克风。',
-  speechNoPermissionError: '你需要启用麦克风，我才能听到你的声音。',
+  speechNoPermissionError: '抱歉麦克风暂时不可用',
   speechNoPermissionErrorWinCopilot: '\u003cb\u003e 麦克风访问 \u003c/b\u003e\u003cbr\u003e 要使 Windows 中的 Copilot 在 Windows 中使用您的麦克风，请确保在“Windows 设置”中启用\u003cb\u003e“允许桌面应用访问麦克风”\u003c/b\u003e。 ',
   speechAudioPlaybackError: '出错了。',
   speechUnknownError: '出错了。',
